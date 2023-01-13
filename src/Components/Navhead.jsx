@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container, Navbar } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { Cross as Hamburger } from "hamburger-react";
 import NavLocker from "./NavLocker";

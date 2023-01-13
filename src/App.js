@@ -4,6 +4,7 @@ import './App.css';
 import NavHead from './Components/Navhead';
 import Home from './pages/Home';
 import Search from './pages/Search';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="/" element={<Home/>} />
       <Route path='/Search' element={<Search/>} />
      </Routes>
+     <Footer/>
     </>
   );
 }

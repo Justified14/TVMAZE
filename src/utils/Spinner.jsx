@@ -3,7 +3,7 @@ import { MutatingDots } from 'react-loader-spinner'
 
 export default function Spinner() {
   return (
-    <div>
+    <div className='d-flex w-100 justify-content-center'>
 <MutatingDots 
   height="100"
   width="100"
@@ -15,8 +15,6 @@ export default function Spinner() {
   wrapperClass=""
   visible={true}
  />
-
-
-    </div>
+ </div>
   )
 }

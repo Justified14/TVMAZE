@@ -40,12 +40,18 @@
   width: 230px !important;
 }
 
+.MediaCard::-webkit-scrollbar{
+  display: none !important;
+}
+
+
 
 @media  screen and (min-width: 768px) {
   .MediaCard{
     width: 250px !important;
 
   }
+
   .LowerMediaCard {
     width: 260px !important;
   }

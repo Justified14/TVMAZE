@@ -22,7 +22,7 @@ export default function Content({data, error, loading}) {
      </div>
      <div className="mt-3">
       <div className='position-relative'>
-        <div ref={scrollRef} className='d-flex boxContent'>
+        <div ref={scrollRef} className='d-flex boxContent scrollbody'>
         {loading && < Spinner/>}
         {error || FindTv && 
         <>

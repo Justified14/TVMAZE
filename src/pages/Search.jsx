@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Container } from "react-bootstrap";
-import useFetch from "../hooks/Usefetch";
 import { AiOutlineClose } from "react-icons/ai";
 import Spinner from "../utils/Spinner";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";

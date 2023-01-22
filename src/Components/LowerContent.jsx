@@ -27,7 +27,7 @@ export default function LowerContent({ data, error, loading }) {
       </div>
       <div className="mt-2">
         <div className="position-relative p-3">
-          <div ref={scrollRef} className="d-flex boxContent">
+          <div ref={scrollRef} className="d-flex boxContent scrollbody">
             {loading && <Spinner />}
             {error ||
               (FindTv && (

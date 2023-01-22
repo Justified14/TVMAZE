@@ -8,9 +8,7 @@
 }
 
 .herobox{
-  background-image: linear-gradient(to right, #733a5e, #cc7873, #301b1f);
-
-  
+  background-image: linear-gradient(to right, #733a5e, #cc7873, #301b1f);  
 }
 
 .logo {
@@ -30,6 +28,16 @@
   background-color: rgb(23, 23, 23);
 }
 
+.button1 {
+  border-radius: 8px;
+}
+
+
+.button1:hover {
+  border-radius: 8px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 .boxContent {
   overflow-x: scroll;
   overflow-y: hidden;
@@ -40,17 +48,19 @@
   width: 230px !important;
 }
 
-.MediaCard::-webkit-scrollbar{
+.scrollbody::-webkit-scrollbar{
   display: none !important;
 }
 
-
+.no-outline:focus {
+  outline:none;
+}
 
 @media  screen and (min-width: 768px) {
   .MediaCard{
-    width: 250px !important;
-
+    width: 310px !important;
   }
+
 
   .LowerMediaCard {
     width: 260px !important;

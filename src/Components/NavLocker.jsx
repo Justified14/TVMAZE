@@ -11,7 +11,7 @@ export default function NavLocker({isOpen, setOpen}) {
         <NavLink to='/' className='align-self-center navword '>
           <p className='mb-3 fw-bold '>TV SHOWS</p>
         </NavLink>
-        <a href="http://www.tvmaze.com" target='_blank' className='fw-bold text-white fs-3 navword'> FIND OUT MORE</a>
+        <a href="http://www.tvmaze.com" target='_blank' rel="noreferrer" className='fw-bold text-white fs-3 navword'> FIND OUT MORE</a>
 
       </div>
 

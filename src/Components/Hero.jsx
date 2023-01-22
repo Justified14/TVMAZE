@@ -8,7 +8,7 @@ export default function Hero() {
         <div className='mt-4 gap-5 justify-content-center text-center'>
           <h3 className='fw-bold fs-4 mb-3 navword'>MUST SEE TV SHOWS, NOW STREAMING </h3>
           <p className='text-white fs-4 w-md-50 mx-auto'>View thousands of shows and see details about <br></br> your favorite tv shows and people. </p>
-          <button className='p-2 max-auto bg-white rounded-md align-items-center mt-3 border-0 '>FIND OUT MORE</button>
+          <button className='p-2 max-auto bg-white rounded-md align-items-center mt-3 border-0 button1'>FIND OUT MORE</button>
 
         </div>
 
